@@ -1,0 +1,7 @@
+tasks:
+  - name: setup
+    init: |
+      ./dev_setup.sh
+vscode:
+  extensions:
+    - johnsoncodehk.volar
