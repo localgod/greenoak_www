@@ -47,7 +47,7 @@ jobs:
       - name: generate
         run: npm run generate
       - name: Save output
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: output
           path: .output/public
