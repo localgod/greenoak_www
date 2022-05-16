@@ -63,7 +63,7 @@ jobs:
           fetch-depth: 0
       - name: Remove old coverage
         run: if [ -d ./_nuxt ] ; then rm -r ./_nuxt; fi
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: output
           path: .
